@@ -40,8 +40,8 @@ const MarketingPage = () => {
         )}
       >
         Collaborate, manage projects and reach new productivity peaks. From high
-        rises to the home office, the way your team works is unique - acoomplish
-        it all with AgileStack.
+        rises to home office, the way your team works is unique - acoomplish it
+        all with AgileStack.
       </div>
       <Button className="mt-6" size="lg" asChild>
         <Link href="/sign-up">Get AgileStack for free</Link>
