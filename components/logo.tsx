@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import { cn } from "@/lib/utils";
-import localFont from "next/font/local";
+import { cn } from '@/lib/utils';
+import localFont from 'next/font/local';
 
-const headingFont = localFont({ src: "../public/fonts/font.woff2" });
+const headingFont = localFont({ src: '../public/fonts/font.woff2' });
 
 export const Logo = () => {
   return (
@@ -13,7 +13,7 @@ export const Logo = () => {
         <Image src="/logo.svg" alt="Logo" height={23} width={23} />
         <p
           className={
-            (cn("text-lg text-neutral-700 pb-1"), headingFont.className)
+            (cn('text-lg text-neutral-700 pb-1'), headingFont.className)
           }
         >
           AgileStack
