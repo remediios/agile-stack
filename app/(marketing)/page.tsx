@@ -18,7 +18,7 @@ const MarketingPage = () => {
     <div className="flex items-center justify-center flex-col">
       <div
         className={cn(
-          'flex items-center justify-center flex-col',
+          'flex items-center justify-center flex-col gap-2',
           headingFont.className
         )}
       >
@@ -36,14 +36,18 @@ const MarketingPage = () => {
       </div>
       <div
         className={cn(
-          'text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto',
+          'text-sm md:text-xl text-neutral-400 mt-6 max-w-xs md:max-w-2xl text-center mx-auto',
           textFont.className
         )}
       >
         Unleash collaboration, project management, and peak productivity. From
         high-rises to home offices, accomplish it all uniquely with AgileStack.
       </div>
-      <Button className="mt-6" size="lg" asChild>
+      <Button
+        className="mt-8 rounded-xl bg-gradient-to-r from-gray-950 via-gray-850 to-gray-800"
+        size="lg"
+        asChild
+      >
         <Link href="/sign-up">Get AgileStack for free</Link>
       </Button>
     </div>
